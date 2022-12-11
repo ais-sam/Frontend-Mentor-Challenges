@@ -10,7 +10,10 @@ tailwind.config={
             fontFamily: {
                 'montserrat': 'Montserrat, sans-serif',
                 "fraunces" : ['Fraunces','serif']
-              }
+              },
+            screens:{
+                "xs" : "375px"
+            }
         }
     }
 }
