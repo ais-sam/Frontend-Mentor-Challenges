@@ -12,7 +12,7 @@ tailwind.config={
                 "fraunces" : ['Fraunces','serif']
               },
             screens:{
-                "xs" : "375px"
+                "xs" : "592px"
             }
         }
     }
