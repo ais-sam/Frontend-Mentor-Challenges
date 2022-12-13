@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/ais-sam/Frontend-Mentor-Challenges/tree/main/-%20Challenge%2001%20-%20product-preview-card-component-main](https://github.com/ais-sam/Frontend-Mentor-Challenges/tree/main/-%20Challenge%2001%20-%20product-preview-card-component-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://product-preview-card-component001.netlify.app/](https://product-preview-card-component001.netlify.app/)
 
 ## My process
 
@@ -47,7 +47,7 @@ Users should be able to:
 ## Author
 
 
-- Frontend Mentor - [@aissam](https://www.frontendmentor.io/profile/aissam)
+- Frontend Mentor - [@ais-sam](https://www.frontendmentor.io/profile/aissam)
 
 
 
