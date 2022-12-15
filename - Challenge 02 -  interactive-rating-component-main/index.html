@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet"> 
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <!-- container -->
+<div class="bg-v-dark-blue h-screen flex flex-col justify-between">
+  <main class="flex-1 flex items-center justify-center">
+    <!-- card -->
+    <div class="bg-dark-blue w-72 p-4 rounded-lg">
+      <!-- star -->
+      <div>
+        <img src="./images/icon-star.svg" alt="">
+      </div>
+      <h3 class="my-4 text-xl font-bold text-white"> How did we do?</h3>
+      <p class="my-4 text-med-grey text-sm"> Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!
+      </p>
+      <!-- rating -->
+      <div class="my-4 flex items-center gap-2 justify-center">
+        <button class="w-10 h-10 rounded-full flex items-center justify-center text-white bg-light-grey">1</button>
+        <button class="w-10 h-10 rounded-full flex items-center justify-center text-white bg-light-grey">2</button>
+        <button class="w-10 h-10 rounded-full flex items-center justify-center text-white bg-light-grey">3</button>
+        <button class="w-10 h-10 rounded-full flex items-center justify-center text-white bg-light-grey">4</button>
+        <button class="w-10 h-10 rounded-full flex items-center justify-center text-white bg-light-grey">5</button>
+      </div>
+      <!-- button -->
+      <button class="p-2 w-full text-center  text-white bg-orange rounded-2xl uppercase">submit</button>
+    </div>
+  </main>
+  <footer class="attribution py-4 ">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Abderrahmane</a>.
+  </footer>
+</div>
+  <!-- Rating state start -->
+ <!--
+  How did we do?
+
+  Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!
+
+  1 2 3 4 5
+
+  Submit
+-->
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+
+  <!-- You selected  -->
+  <!-- Add rating here -->
+   <!-- out of 5
+
+  Thank you!
+
+  We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch! -->
+
+  <!-- Thank you state end -->
+
+  
+  
+  <script src="./script.js"></script>
+</body>
+</html>
