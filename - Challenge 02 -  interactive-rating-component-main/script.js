@@ -15,9 +15,9 @@ const thanksCard =(rating)=> `
   </p>
 
 </div>`
-let selectedRating 
+let selectedRating =0
 // select all ratings buttons
-const ratings = document.querySelectorAll('#ratings button span')
+const ratings = document.querySelectorAll('#ratings button')
 // create an array from nodeList
 const ratingsArray = [...ratings]
 
@@ -31,14 +31,15 @@ submitBtn.addEventListener("click",submitRating)
 // submit review
 function submitRating (e){
   e.preventDefault()
-  if (selectedRating) {
+  if (selectedRating!==0) {
     main.innerHTML=thanksCard(selectedRating)
   }
 }
 
 // set new rating 
 function setNewRating (element){
-  selectedRating = element.innerHTML
+
+  selectedRating = element.querySelector('span').innerHTML
 }
 
 
